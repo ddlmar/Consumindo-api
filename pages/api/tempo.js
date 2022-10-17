@@ -1,5 +1,5 @@
 const tempo = (req, res) => {
-  const dynamicData = newData();
+  const dynamicData = new Date();
   res.json({
     date: dynamicData.toGMTString()
   })
